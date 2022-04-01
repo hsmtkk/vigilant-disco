@@ -15,6 +15,7 @@ func TestSmallest1(t *testing.T) {
 	assert.Equal(t, []int64{29917, 0, 1}, kata.Smallest(209917))
 }
 
+/*
 func TestListCandidates0(t *testing.T) {
 	got := kata.ListCandidates(1203)
 	want := []int64{1203, 2103, 2013, 2031, 2103, 1203, 1023, 1032, fd
@@ -24,3 +25,4 @@ func TestListCandidates0(t *testing.T) {
 		o34o 3jopi;1w';123, 1023, 1203, 1230, 3120, 1320, 1230, 1203}
 	assert.Equal(t, want, got)
 }
+*/
