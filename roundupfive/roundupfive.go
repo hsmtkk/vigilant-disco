@@ -1,0 +1,11 @@
+package roundupfive
+
+func RoundUpFive(n int) int {
+	for i := 0; i < 5; i++ {
+		m := n + i
+		if m%5 == 0 {
+			return m
+		}
+	}
+	return 0
+}
